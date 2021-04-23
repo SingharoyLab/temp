@@ -60,7 +60,7 @@ The CryoFold GUI can then be launched by running gui.py by running `python gui.p
 
 ### Notes
 
-Manual changes to installation script install_linux.sh or install_mac.sh might be necessary. Line 10 of the script specifies python version 3.5, which the user can change as per their choice. Additionally, MELD is available for CUDA versions 7.5, 8.0, 9.0 and 9.2. The current script will install meld-cuda75 (line 10), which is for CUDA 7.5. The user can manually change this (to meld-cuda80, meld-cuda90 or meld-cuda92) to suit their CUDA compiler.
+Manual changes to installation script `install_linux.sh` or `install_mac.sh` might be necessary. Line 10 of the script specifies python version 3.5, which the user can change as per their choice. Additionally, MELD is available for CUDA versions 7.5, 8.0, 9.0 and 9.2. The current script will install meld-cuda75 (line 10), which is for CUDA 7.5. The user can manually change this (to meld-cuda80, meld-cuda90 or meld-cuda92) to suit their CUDA compiler.
 
 We recommend using the installation script as it creates a separate python environment called "CryoFold" where all the packages are installed in. This keeps the default packages untouched.
 
